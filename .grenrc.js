@@ -1,6 +1,6 @@
 module.exports = {
   dataSource: "milestones",
-  prefix: "v",
+  prefix: "",
   groupBy: "label",
   milestoneMatch: "Release {{tag_name}}",
   changelogFilename: "CHANGELOG.md",
