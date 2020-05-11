@@ -1,7 +1,7 @@
 module.exports = {
   dataSource: "milestones",
   prefix: "",
-  milestoneMatch: "Release {{tag_name}}",
+  milestoneMatch: "{{tag_name}}",
   changelogFilename: "CHANGELOG.md",
   ignoreIssuesWith: ["duplicate", "wontfix", "invalid", "help wanted"],
   template: {
