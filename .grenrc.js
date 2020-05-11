@@ -1,7 +1,7 @@
 module.exports = {
   dataSource: "milestones",
   prefix: "",
-  milestoneMatch: "{{tag_name}}",
+  milestoneMatch: "Release {{tag_name}}",
   changelogFilename: "CHANGELOG.md",
   ignoreIssuesWith: ["duplicate", "wontfix", "invalid", "help wanted"],
   template: {
@@ -11,7 +11,7 @@ module.exports = {
     label: "[**{{label}}**]",
     noLabel: "closed",
     changelogTitle: "# Changelog\n\n",
-    release: "## {{release}} ({{date}})\n{{body}}",
+    release: "##{{release}} ({{date}})\n{{body}}",
     releaseSeparator: "\n---\n\n",
     group: function (placeholders) {
       var icon = "🙈";
